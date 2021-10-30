@@ -1,0 +1,840 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #ffffff !important;
+  border-bottom: 5px solid #fea069;
+  padding: 30px 0;
+
+}
+
+a.nav-link {
+
+  font-family: "Oxygen", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #57005e !important;
+  margin-right: 64px;
+}
+
+a.nav-link.donate {
+  font-family: "Oxygen"sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #090057;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border: solid 3px #090057;
+  border-radius: 4px;
+  margin-right: 0px;
+  padding: 10px 50px !important;
+
+}
+.navbar img {
+  width:398px
+}
+
+.fa-search{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #57005e;
+  margin-right: 64px;
+  margin-top:15px;
+}
+
+a i {
+  width: 50px;
+  height: 50px; 
+  padding: 13.7px 13.3px 16.5px 8.5px;
+  color:white;
+}
+
+/**************/
+/* SubHeader */
+/************/
+.resource-subheader {
+  background-image: url(./images/resource-subheader-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.resource-subheader h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+
+.resource-subheader h3 {
+  font-family: 'Oxygen', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.resource-subheader input {
+  background-color: #cabdd4;
+  padding: 1.5rem 1rem;
+  width: 500px;
+}
+
+.resource-subheader button, .toc-btn{
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffc3a0;
+  font-family: 'Oxygen';
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: #090057;
+  padding: 1rem 2rem;
+}
+
+.resource-tabs div{
+  background-color: #ebe5f7;
+  border-radius: 25px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+  padding: .75rem;
+  margin: 0.5rem 1rem;
+}
+
+.resource-tabs div a{
+  font-size: 16px;
+  font-family: 'Oxygen';
+  font-weight: bold;
+  letter-spacing: 1.43px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.resource-tabs img{
+  width: 24px;
+  height: 24px;
+}
+
+.resource-subheader a{
+  color: #FFFFFF;
+  letter-spacing: 0.1px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 24px;
+}
+
+.resource-subheader.archive h1 {
+  font-weight: 500;
+  font-size: 6rem
+}
+
+
+.archive h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  width: 75%;
+  margin: auto;
+  letter-spacing: 0.17px;
+}
+
+.archive h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 3.75rem;
+  color: #e6deea;
+}
+
+.resume-subheader {
+  background-image: url(./images/resources-article-subheader.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #090057;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.resume-subheader p{
+  font-size: 2.125rem;
+}
+
+.resume-subheader h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 5.375rem;
+}
+
+.resume-subheader .resource-tabs div{
+  color: #090057;
+  padding: .50rem 2rem;
+  font-size: 1.125rem;
+}
+
+.resume-subheader .resource-tabs div.no-bg{
+  background-color: revert;
+  font-size: 1.25rem;
+}
+
+.resume-subheader .resource-tabs div a{
+  color: #090057;
+  font-size: 1.125rem;
+}
+
+.resume.card-title-author {
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1.88px;
+  color: rgba(0, 0, 0, 0.87)
+}
+/* RESOURCES ended*/
+
+/**************/
+/**** MAIN ***/
+/************/
+main{
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+main h1, main h2
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+main a{
+  font-family: 'Oxygen', sans-serif;
+}
+.card-title-author{
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 1.88px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+main .card-body{
+  font-family: 'Oxygen', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+main .card-text{
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.09px;
+  text-align: left;
+
+}
+
+main .card a{
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.25px;
+  color: #090057;
+}
+
+.col.right{
+  text-align: right;
+  
+}
+.col.left{
+  text-align: left;
+  
+}
+main small a, main .col.right a{
+  font-weight: bold;
+  letter-spacing: 1.88px;
+  font-size: 12px;
+  color:  rgba(0, 0, 0, 0.6)
+}
+
+.resources-jobs .job-type, .roboto-font{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.resources-jobs .company-name{
+  font-family: 'Oxygen', sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.43;
+  letter-spacing: 0.09px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.card-body h5{
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 1.43px;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+.card-body .job-posting{
+  font-size: 1rem;
+}
+
+.roboto-font{
+  font-size: 3.75rem;
+  letter-spacing: -0.53px;
+}
+
+main p span
+{
+  width: 40rem;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.43;
+  letter-spacing: 0.09px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main .archive h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 3.75rem;
+  color:  rgba(0, 0, 0, 0.87);
+  text-align: center;
+}
+
+.archive-date ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.125rem;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+}
+
+.archive dt {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.87);
+  letter-spacing: -0.21px;
+}
+
+.archive dd {
+  font-size: 1.25rem;
+  letter-spacing: -0.21px;
+}
+
+.archive dd a {
+  font-family: 'Ubuntu', sans-serif;
+  color: #090057;
+  font-weight: 500;
+}
+
+.resume {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.26px;
+  color: rgba(0, 0, 0, 0.86);
+}
+
+.resume-pheader {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.125rem;
+  color: #212121;
+  letter-spacing: -0.01px;
+}
+.resume-dos {
+  padding-left:0px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.25rem;
+}
+.resume-dos li {
+  display: inline-flex;
+  padding-left:0px;
+  padding-bottom:10px;
+}
+.resume-dos li span {
+  padding-left:5px
+}
+
+.resume-dos li i {
+  padding-top: 5px;
+  color: #ebe5f7
+}
+
+.resume h4 a{
+  font-family: 'Oxygen';
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.01px;
+  color: #212121;
+  text-decoration: none;
+}
+/* MAIN ended*/
+
+/**************/
+/*** FOOTER **/
+/************/
+.footer {
+  background-image: linear-gradient(to bottom, #090057, #090055 26%, #070044 42%, #020011);
+  color: #ffffff;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.footer-header {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 48px;
+}
+
+.footer-header span
+{
+  width: 50rem;
+  display: inline-block;
+}
+
+button.btn-Subscribe {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border: solid 3px #090057;
+  background-color: #ffffff;
+  font-family: 'Oxygen';
+  font-weight: bold;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: #090057;
+  padding: 1rem 2rem;
+}
+
+input.footer-input {
+  border: none;
+  background-color: #413b7c;
+  padding: 1.5rem 1rem;
+}
+
+input.input-Name {
+  width: 18.75rem;
+}
+
+input.input-Email {
+  width: 25rem;
+}
+
+.footer .list-group-flush>.list-group-item, .grid-container .list-group-flush>.list-group-item {
+  background: none;
+  padding-left: 0;
+  border-width: 0;
+  text-align: left;
+}
+
+.footer .list-group-flush>.list-group-item a {
+  color: #BBBACA;
+  letter-spacing: 0.15px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+
+.footer h4 {
+  text-align: left;
+}
+
+.footer .footer-link .gx-5 {
+  --bs-gutter-x: 8rem;
+}
+
+.footer .px-lg-5{
+  padding-right: 12rem!important;
+  padding-left: 12rem!important;
+}
+
+.footer-btn p
+{
+  margin:0px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+}
+
+.footer-btn .fa{
+  padding: 0 1.25rem;
+}
+/* FOOTER ended*/
+
+
+/* GRID */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 20px 50px;
+}
+
+.grid-container.resume {
+  display: grid;
+  grid-template-columns: 20% auto 30%;
+  padding: 10px;
+  grid-gap: 20px 10px;
+}
+
+.grid-container.resume-examples {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0px;
+  grid-gap: 0px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item.resume {
+  padding: 10px;
+  text-align: left;
+}
+
+.grid-container h4{
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.125rem;
+}
+.grid-container .list-group-flush>.list-group-item a {
+  color: #090057;
+  letter-spacing: 0.26px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+}
+
+.list-group-flush.toc li {
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1.88px;
+}
+.list-group-flush.toc-list>.list-group-item a{
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.15px;
+  font-weight: normal;
+}
+
+.toc-btn
+{
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffc3a0;
+  border-color: #ffc3a0;
+  padding:10px;
+  font-size: 0.8125rem;
+}
+
+.resume .card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.resume .card a {
+  color: #0d6c89
+}
+.resume .card .categ-type {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1.88px;
+  color: #000;
+}
+
+.resume .card h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: normal
+}
+
+.resume .card p {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 0.875rem;
+  color:   #757575;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+}
+
+.resume-examples {
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: normal;
+  letter-spacing: 0.01px;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
+
+.resume-title {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.note {
+  font-size: 1rem;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+.text-Helvetica-20px {
+  font-size: 1.25rem;
+  color: #707070;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+  text-align: left;
+}
+
+.comment {
+  color:   #090057
+}
+
+.comment h1 {
+  font-size: 2.125rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.comment-label {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.01px;
+  color: #090057;
+}
+
+.comment-label b {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  color: #a81d1d;
+  display: inline;
+}
+.comment-input {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border-style:none;
+}
+
+.comment button {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border: solid 3px #090057;
+  background-color: var(--white);
+  width: 12.6875rem;
+  color: #090057;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.big-initial {
+  width: 7.8125rem;
+  height: 7.8125rem;
+  background-color: #57005e;
+
+}
+
+.big-initial span {
+  font-family: "Oxygen", sans-serif;
+  font-size: 7.5rem;
+  font-weight: bold;
+  line-height: normal;
+  color: #ffffff;
+  display: block;
+  margin-top:-10px
+}
+/* GRID ended */
+
+/***********************/
+/**** MEDIA QUERY *****/
+/*********************/
+
+/* Mobile and in PORTRAIT */
+
+@media all and (max-width: 575.98px) {
+  .navbar img{
+      width:98%
+  }
+
+  .footer h1,main p span{
+    text-align: left!important;
+  }
+
+  .footer-header span, main p span{
+  width: auto;
+  }
+
+  .footer .d-flex.justify-content-around, .resource-subheader .d-flex.justify-content-around{
+    justify-content: flex-start!important;
+  }
+
+  main .col-sm-4, main .col-sm-3 {
+    margin-bottom: .5em;
+  }
+  .footer .col-auto, .footer-btn .col, .resource-subheader .col-auto {
+    margin-bottom: .25rem;
+    padding: 0 .5rem;
+  }
+
+  .footer input, .resource-subheader input{
+    width: max-content;
+  }
+
+  .footer .px-lg-5 {
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
+  }
+
+  .footer-btn .d-flex {
+    flex-direction: column;
+  }
+
+  .footer .footer-link .gx-5 {
+    --bs-gutter-x: 0rem;
+  }
+
+  .footer-link .col-auto{
+    width:100%;
+  }
+  .roboto-font{
+    font-size: revert;
+    letter-spacing: 0px;
+  }
+
+  .row.pt-3.text-center{
+    padding-top: 0px!important;
+  }
+
+  .row.mt-4.mb-5.text-center{
+    margin-bottom: 0px!important;
+  }
+
+  main.p-5{
+    padding: 0px 0.625rem!important;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .grid-item {
+    padding: 0;
+  }
+
+  .archive-date .col-6 {
+    width: 100%
+  }
+
+  .archive h3 {
+    padding: 0px;
+    text-align: left;
+  }
+  .grid-container.resume {
+    display: block;
+  }
+  
+  .resume-subheader h1 {
+    font-size:2.125rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+  }
+  .resume-subheader .resource-tabs div.no-bg {
+    padding: 0px;
+  }
+}
+
+
+/* Mobile and in LANDSCAPE */
+
+@media (min-width: 576px) and (max-width: 1199.98px){
+
+  .footer h1{
+    text-align: left!important;
+  }
+
+  .footer-header span,main p span {
+    width: auto;
+  }
+  
+  .footer input{
+    width: max-content;
+  }
+
+  .footer .col-auto, .footer-btn .col, .resource-subheader form .col-auto {
+    margin-bottom: .25rem;
+    padding: 0 .5rem;
+  }
+  .resource-subheader .col-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .col-sm-4, main .col-sm-3 {
+    margin-bottom: .5em;
+    width: fit-content;
+  }
+  .footer-link .col-auto{
+    width: 50%;
+  }
+  
+  .footer .footer-link .gx-5 {
+    --bs-gutter-x: 0rem;
+  }
+
+  .footer .px-lg-5 {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
+
+  main.p-5 {
+    padding: 0px 0.625rem!important;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .grid-item {
+    padding: 0 0.625rem;
+    width: 93%
+  }
+
+  .archive-date .col-6 {
+    width: 80%
+  }
+
+  .archive .col-sm-3 {
+    width: 25%;
+  }
+}
+
